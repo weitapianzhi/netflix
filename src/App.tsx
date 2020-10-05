@@ -1,22 +1,14 @@
-import React from 'react';
-import './App.css';
-
+import React from "react";
+import Jumbotron from "./container/Jumbotron"
+import Footer from "./container/Footer"
+import Accordion from "./container/Accordion";
+import "./global-styles/global.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Jumbotron></Jumbotron>
+      <Accordion></Accordion>
+      <Footer></Footer>
     </div>
   );
 }
